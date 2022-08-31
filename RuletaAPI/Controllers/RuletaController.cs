@@ -82,7 +82,7 @@ namespace RuletaAPI.Controllers
         [HttpPost]
         public IActionResult NuevaRuleta()
         {
-            Ruleta ruleta = ruletaServicio.creacion();
+            Ruleta ruleta = ruletaServicio.Creacion();
             return Ok(ruleta);
         }
     }
